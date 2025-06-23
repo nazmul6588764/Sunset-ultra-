@@ -1,0 +1,1 @@
+// Add your Supabase project URL and anon key here
