@@ -1,1 +1,4 @@
-// Add your Supabase project URL and anon key here
+const SUPABASE_URL = "https://fiolyigngsvgtjkypfaz.supabase.co";
+const SUPABASE_ANON_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImZpb2x5aWduZ3N2Z3Rqa3lwZmF6Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTAxMzM4MjUsImV4cCI6MjA2NTcwOTgyNX0.GrNKZcZ155KLxOe1MSPoWMxDpH21TzLLqJk8fY-lIEk";
+
+const supabase = supabase.createClient(SUPABASE_URL, SUPABASE_ANON_KEY);
